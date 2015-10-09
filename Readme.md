@@ -2,4 +2,6 @@
 
 ## Usage
 
-  $ rackup -p 4567
+```
+$ rackup -p 4567
+```
