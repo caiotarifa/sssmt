@@ -1,0 +1,10 @@
+<ul>
+  <% @files.each do |file| %>
+  <li>
+    <strong><%= file %></strong> (
+    <a href="/<%= file %>">Normal</a> |
+    <a href="/premailer/<%= file %>">Premailer</a> |
+    <a href="/sendmail/<%= file %>">Sendmail</a>)
+  </li>
+  <% end %>
+</ul>
