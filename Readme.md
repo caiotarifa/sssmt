@@ -5,3 +5,9 @@
 ```
 $ rackup -p 4567
 ```
+
+## Install
+
+```
+$ bundle install
+```
